@@ -4,6 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### study Redux
+
+#### 常见错误
+
+##### store必须是唯一的，多个store是坚决不允许，只能有一个store空间
+
+##### 只有store能改变自己的内容，Reducer不能改变
+
+##### Reducer必须是纯函数
+
+    纯函数：如果函数的调用参数相同，则永远返回相同的结果。它不依赖于程序执行期间函数外部任何状态或数据的变化，必须只依赖于其输入参数。
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
