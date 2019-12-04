@@ -1,4 +1,4 @@
-import { LISTCHANGE, LISTADD, LISTDELETE, GETLIST } from './actionTypes';
+import { LISTCHANGE, LISTADD, LISTDELETE, GETLIST, CHANGEAREA } from './actionTypes';
 
 export const changeListAction = (value) =>({
     type:LISTCHANGE,
@@ -14,5 +14,10 @@ export const listDeleteAction = (value) => ({
 })
 export const getList = (value) => ({
     type:GETLIST,
+    value:value
+})
+
+export const changeAreaa = (value) =>({
+    type:CHANGEAREA,
     value:value
 })

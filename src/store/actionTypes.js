@@ -8,3 +8,5 @@ export const LISTDELETE = 'ListDelete';
 
 export const GETLIST = 'getList';
 
+export const CHANGEAREA = 'changeArea';
+
